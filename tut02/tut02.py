@@ -42,7 +42,7 @@ def get_memory_score(input_list):
                 mylist.remove(mylist[0])
                 mylist.append(i)
     return count                
-input_nums = [1,4,5.5,'s',6,7]
+input_nums = [3,4,5,3,2,1]
 isdigit(input_nums)
 score = get_memory_score(input_nums)
 print('Score: {}'.format(score))
