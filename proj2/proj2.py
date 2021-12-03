@@ -11,7 +11,7 @@ import helper
 import helper2
 import mini
 app = Flask(__name__)
-
+app.secret_key = b'pavansai@1916'
 
 @app.route('/')
 def get():

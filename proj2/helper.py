@@ -13,9 +13,6 @@ app = Flask(__name__)
 
 
 
-
-
-
 def function_1():
     from_range=request.form.get("from_range")
     to_range=request.form.get("to_range")
